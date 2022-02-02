@@ -1,0 +1,80 @@
+foreach
+******************************
+var color = ['red','blue'];
+
+for(var i =0; i < color.length; i++){
+  console.log(color[i]);
+}
+
+color.forEach(function(color){
+  console.log(color)
+});
+
+
+//create an array of numbers
+var number = [1,2,3];
+//create  variable to hold the sum
+var sum =0;
+//Loop over the array,incrementing the sum variabe
+number.forEach(function(no){
+  sum += no;
+})
+//print variable
+sum;
+
+
+
+//map helper
+
+var array = [2,3,4,5];
+var darray = [];
+
+for(var i =0 ;i<array.length;i++){
+    darray.push(array[i]*2);
+}
+
+var dd = array.map(function(array){
+  return array * 2;
+});
+
+dd;
+darray;
+
+
+var cars =[
+  {model:'Buick',price:'cheap'},
+  {model:'camaro',price:'expensive'}
+];
+
+var prices = cars.map(function(car){
+  return car.price;
+})
+
+prices;
+
+//reduce
+
+var numbers = [10,20,30];
+var sum = 0;
+
+numbers.reduce(function(sum,number){
+   return sum + number;
+},0);
+
+
+function balancedParens(string){
+  return !string.split("").reduce(function(previous,char){
+     if(previous<0){
+      return previous;
+     }
+     if(char === "("){
+      return ++previous;
+     }
+      if(char === ")"){
+      return --previous;
+     }
+    return previous;
+  },0);
+}
+
+balancedParens(")(");

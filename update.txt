@@ -1,0 +1,15 @@
+Date :01-02-2022
+In Time :9:50
+Out Time :6.25
+Name :isha ghevariya
+Learn Technology :GitHub
+Today's Learning Hours : 8 Hours
+Today's learn:git issue,setting up issue labels,setting up milestones,creating issues,Github Gists,
+              creatis gists,working with gists locally,github organizations,creating github organizations,
+              Branches and confusion,Destructive Action,comparing git with other SCM Tools,fullWindows Installation,
+                            
+
+update System:
+https://update.lanetteam.com/#/login
+
+
